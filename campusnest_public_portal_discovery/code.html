@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary-fixed-variant":"#384760","on-surface-variant":"#44474d","on-tertiary-container":"#b58129","surface-tint":"#505f79","on-tertiary":"#ffffff","on-primary":"#ffffff","secondary-fixed-dim":"#70d8ca","tertiary-fixed-dim":"#f8bc5f","outline":"#75777e","inverse-surface":"#223144","on-secondary-fixed-variant":"#005049","error-container":"#ffdad6","primary-fixed":"#d5e3ff","on-primary-fixed":"#0b1c32","on-surface":"#0d1c2e","background":"#f8f9ff","inverse-on-surface":"#eaf1ff","error":"#ba1a1a","primary-container":"#14243b","surface-bright":"#f8f9ff","secondary":"#006a61","outline-variant":"#c5c6ce","inverse-primary":"#b7c7e5","surface-dim":"#ccdbf4","on-background":"#0d1c2e","surface-container-low":"#eff4ff","on-secondary-fixed":"#00201d","primary-fixed-dim":"#b7c7e5","tertiary":"#170c00","on-error":"#ffffff","secondary-fixed":"#8df4e6","surface-variant":"#d4e4fc","secondary-container":"#8bf1e3","on-error-container":"#93000a","on-secondary-container":"#006f65","tertiary-container":"#332000","surface":"#f8f9ff","on-tertiary-fixed-variant":"#614000","surface-container-highest":"#d4e4fc","on-primary-container":"#7c8ba7","tertiary-fixed":"#ffddb0","surface-container-high":"#dce9ff","surface-container-lowest":"#ffffff","on-secondary":"#ffffff","primary":"#000e24","surface-container":"#e5eeff","on-tertiary-fixed":"#281800"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"space-sm":"0.5rem","space-lg":"1.5rem",gutter:"1.5rem","space-md":"1rem","space-xs":"0.25rem",margin:"3rem","margin-mobile":"1rem","gutter-mobile":"1rem","space-xl":"2.5rem"},fontFamily:{"label-md":["Inter"],"headline-md":["Manrope"],"headline-lg-mobile":["Manrope"],"display-lg":["Manrope"],"body-sm":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"headline-sm":["Manrope"],"body-md":["Inter"],"display-lg-mobile":["Manrope"],caption:["Inter"],"headline-lg":["Manrope"]},fontSize:{"label-md":["13px",{lineHeight:"16px",letterSpacing:"0.01em",fontWeight:"600"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"headline-lg-mobile":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"display-lg":["48px",{lineHeight:"56px",letterSpacing:"-0.03em",fontWeight:"700"}],"body-sm":["12px",{lineHeight:"18px",letterSpacing:"0.005em",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.03em",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"400"}],"headline-sm":["18px",{lineHeight:"26px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",letterSpacing:"0em",fontWeight:"400"}],"display-lg-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"700"}],caption:["10px",{lineHeight:"12px",letterSpacing:"0.04em",fontWeight:"500"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"600"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(20,36,59,0.06)]"><div class="h-28 max-w-7xl mx-auto px-gutter flex flex-col justify-between"><div class="h-16 flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="CampusNest Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAk0Xh1CyjT35Tn_OrErf_ci0ZdkAadnldTidfLZClK_LIWbR6u8LLHPcqi4b_PIZTPyBFh6f5PAahGieCai1oFYNkp8BBsIlDekU9EFbEoBngQVVn0f1uTXqlQsTEwIxK-1aU9V5oupoYR5FX2RsxuK08kA0Q6q8_ip6otQzRavNAsFR_j1tRBbu1mKHM4zmJvmSrilNdhixvXAk0m7t9Jirv_oTtXtGewkx-Pv1A"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">CampusNest</span><span class="font-caption text-caption text-secondary font-semibold uppercase tracking-wider">Student Living</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-label-md font-bold"><a aria-current="page" class="transition-colors text-primary font-label-md font-bold" data-path="explore-pgs" href="#">Explore PGs</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="how-it-works" href="#">How It Works</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="ai-phone-helpline" href="#">AI Phone Helpline</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="list-property" href="#">List Property (Provider)</a><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-low"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Student Mode</span></div></nav><div class="flex items-center gap-space-md"><button aria-label="Search listings" class="p-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-xl">search</span></button><div class="relative"><button aria-label="Notifications" class="p-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors relative" type="button"><span class="material-symbols-outlined text-xl">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-secondary-container ring-2 ring-surface-container-lowest"></span></button></div><div class="flex items-center gap-space-sm pl-space-xs cursor-pointer group"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRJpe7FqIEmVTkmK9OjqMnNzyc9ZhYtSfWJ1sIVf_rUhY1qIadI3bLh46q4Oj2Gn75V1jovLxGIQXdxk-aa76pLkQ7fXKICmBvwiar1hbGtjFc1i8iaSfyfAe_RQX9xU2t-8OTjN4-0MLrUTCb7dU1H3mHz7-Tlc4u4Wzt5FCumawOHNvH9fWYMWHmS0K4KRum33I8GsxmmBlw5A2xw72Qt_PVO_GEDhs4gF85ozA"/><div class="hidden sm:flex flex-col text-left"><span class="font-label-sm text-label-sm text-on-surface font-semibold leading-none">Aarav Sharma</span><span class="font-caption text-caption text-on-surface-variant mt-0.5 leading-none">Univ. of Delhi</span></div><span class="material-symbols-outlined text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">keyboard_arrow_down</span></div></div></div><div class="h-12 flex items-center justify-between overflow-x-auto"><div class="flex items-center gap-space-md"><div class="flex items-center p-space-xs rounded-lg bg-surface-container-low"><button class="px-space-sm py-space-xs rounded font-label-sm text-label-sm bg-surface-container-lowest text-primary shadow-[0_1px_3px_rgba(20,36,59,0.04)]" type="button">Student View</button><button class="px-space-sm py-space-xs rounded font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button">Provider View</button><button class="px-space-sm py-space-xs rounded font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button">Admin View</button></div><nav class="flex items-center gap-space-lg" data-active-classes="text-secondary font-label-sm font-bold"><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="overview" href="#">Overview</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="find-accommodation" href="#">Find Accommodation</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap flex items-center gap-space-xs" data-path="saved-accommodations" href="#">Saved <span class="px-space-xs py-0.5 rounded-full bg-surface-container font-caption text-caption text-on-surface font-bold">4</span></a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap flex items-center gap-space-xs" data-path="my-enquiries" href="#">My Enquiries <span class="px-space-xs py-0.5 rounded-full bg-secondary-container font-caption text-caption text-on-secondary-container font-bold">2</span></a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="helpline-support" href="#">Helpline</a></nav></div><div class="hidden md:flex items-center gap-space-sm"><span class="font-caption text-caption text-on-surface-variant">Verified Student Shield: Active</span><span class="material-symbols-outlined text-sm text-secondary">verified_user</span></div></div></div></header><main class="w-full pt-28 bg-surface"><div class="flex flex-col w-full">
+<!-- Immersive Strategic Hero Canvas with Overlap Search -->
+<section class="relative w-full overflow-hidden bg-primary-container text-on-primary -mt-28 pt-36 pb-28 px-gutter">
+<!-- Subtle Ambient Energy Orbs -->
+<div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-secondary/15 blur-3xl pointer-events-none"></div>
+<div class="absolute bottom-0 -left-20 w-80 h-80 rounded-full bg-primary-fixed/10 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto w-full relative z-10 flex flex-col items-center text-center">
+<!-- Institutional Micro-tag -->
+<div class="inline-flex items-center gap-space-sm px-space-md py-space-xs rounded-full bg-surface-container-highest/20 backdrop-blur-md mb-space-lg">
+<span class="material-symbols-outlined text-secondary-container text-base">verified_user</span>
+<span class="font-label-sm text-label-sm text-secondary-container tracking-wider uppercase">Find Your Place. Feel at Home. Start Your Journey.</span>
+</div>
+<!-- High-Impact Display Typography -->
+<h1 class="font-display-lg text-display-lg max-w-4xl tracking-tight text-surface leading-[1.1] mb-space-md">
+        Your College Journey Deserves the Right Place to Call Home.
+      </h1>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-2xl font-normal leading-relaxed mb-space-xl">
+        Discover genuine PGs and rental rooms near your college. Compare accommodation, explore verified providers, and find a place that fits your budget.
+      </p>
+<!-- High-Precision Search Console Floating Matrix -->
+<div class="w-full max-w-5xl bg-surface-container-lowest text-on-surface rounded-xl p-space-md md:p-space-lg shadow-2xl relative z-20">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md items-end">
+<!-- College Selector -->
+<div class="md:col-span-4 flex flex-col text-left">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-space-xs flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-secondary">school</span> University / Campus
+            </label>
+<div class="relative">
+<select class="w-full h-12 bg-surface-container-low text-on-surface font-body-md text-body-md rounded-lg px-space-md pr-8 appearance-none focus:outline-none focus:bg-surface-container transition-colors cursor-pointer">
+<option value="du-north">North Campus - Delhi University</option>
+<option value="iit-b">IIT Bombay, Powai</option>
+<option value="christ-blr">Christ University, Bengaluru</option>
+<option value="bits-pilani">BITS Pilani, Hyderabad Campus</option>
+<option value="pune-univ">Savitribai Phule Pune University</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-on-surface-variant pointer-events-none text-lg">expand_more</span>
+</div>
+</div>
+<!-- Room Config -->
+<div class="md:col-span-3 flex flex-col text-left">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-space-xs flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-secondary">hotel</span> Room Preference
+            </label>
+<div class="relative">
+<select class="w-full h-12 bg-surface-container-low text-on-surface font-body-md text-body-md rounded-lg px-space-md pr-8 appearance-none focus:outline-none focus:bg-surface-container transition-colors cursor-pointer">
+<option value="single">Single Occupancy (Private)</option>
+<option selected="" value="double">Double Sharing (2 Beds)</option>
+<option value="triple">Triple Sharing (Budget)</option>
+<option value="studio">1RK / Private Studio</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-on-surface-variant pointer-events-none text-lg">tune</span>
+</div>
+</div>
+<!-- Move-in Date -->
+<div class="md:col-span-2 flex flex-col text-left">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-space-xs flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-secondary">calendar_today</span> Move-In
+            </label>
+<input class="w-full h-12 bg-surface-container-low text-on-surface font-body-md text-body-md rounded-lg px-space-md focus:outline-none focus:bg-surface-container transition-colors cursor-pointer" type="date" value="2024-08-01"/>
+</div>
+<!-- Submit CTA -->
+<div class="md:col-span-3">
+<button class="w-full h-12 bg-secondary hover:bg-on-secondary-container text-on-secondary font-label-md text-label-md rounded-lg flex items-center justify-center gap-space-xs shadow-md transition-all active:scale-[0.98]" type="button">
+<span>Find Accommodation</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Budget Preset Chips Ribbon -->
+<div class="mt-space-md pt-space-md flex flex-wrap items-center justify-between gap-space-sm bg-surface-container-lowest text-left">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Monthly Budget:</span>
+<button class="px-space-sm py-1 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm transition-colors" type="button">Under ₹7,000</button>
+<button class="px-space-sm py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm transition-colors shadow-sm" type="button">₹8,000 - ₹12,000</button>
+<button class="px-space-sm py-1 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm transition-colors" type="button">₹12,000 - ₹18,000</button>
+<button class="px-space-sm py-1 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm transition-colors" type="button">₹18,000+ Luxury Suites</button>
+</div>
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-sm">security</span>
+<span class="font-caption text-caption text-secondary font-semibold uppercase tracking-wider">Zero Brokerage Guarantee</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Metric Trust Strip -->
+<section class="w-full bg-surface-container-low py-space-lg px-gutter relative z-20">
+<div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-space-lg">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">bed</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold">14,200+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">Verified Beds Available</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl">account_balance</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold">85+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">Top Campuses Covered</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl">policy</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold">100%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">In-Person Inspected</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-2xl text-on-tertiary-container">star</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-headline-md text-headline-md text-primary font-bold">4.8 / 5</span>
+<span class="material-symbols-outlined text-xs text-on-tertiary-container fill-current">star</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">From 22,000+ Students</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: How CampusNest Works (Progressive Discovery) -->
+<section class="w-full py-space-xl px-gutter max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div class="max-w-xl">
+<span class="font-caption text-caption uppercase tracking-wider text-secondary font-bold">Institutional Security Standard</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mt-space-xs">
+          Engineered for safe student moves in 3 simple phases.
+        </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
+        Eliminate shady broker fees, fabricated room pictures, and withheld security deposits with institutional escrow logic.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between group hover:-translate-y-1 transition-transform duration-200">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center text-primary font-headline-sm text-headline-sm font-bold mb-space-md">
+            01
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Search Near Your College</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+            Filter listings by exact walking distance or metro commute times to your university department, library, and sports complexes.
+          </p>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Campus Geofence Engine</span>
+<span class="material-symbols-outlined text-secondary text-sm">near_me</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between group hover:-translate-y-1 transition-transform duration-200">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center text-primary font-headline-sm text-headline-sm font-bold mb-space-md">
+            02
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Book Physical or 3D Tour</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+            Schedule a certified staff-escorted viewing or conduct an immersive real-time 3D walkthrough with verified room telemetry.
+          </p>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Live Availability Feed</span>
+<span class="material-symbols-outlined text-secondary text-sm">view_in_ar</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between group hover:-translate-y-1 transition-transform duration-200">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center text-primary font-headline-sm text-headline-sm font-bold mb-space-md">
+            03
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Escrow Move-In Protection</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+            Your token deposit stays in digital escrow and is only released to the owner 24 hours after you inspect and accept keys on move-in day.
+          </p>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">100% Refund Guarantee</span>
+<span class="material-symbols-outlined text-secondary text-sm">lock</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Popular Accommodations Near Universities -->
+<section class="w-full bg-surface-container-low py-space-xl px-gutter">
+<div class="max-w-7xl mx-auto flex flex-col">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-sm">
+<div>
+<span class="font-caption text-caption uppercase tracking-wider text-secondary font-bold">Curated Student Housing</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mt-space-xs">
+            Popular Accommodations Near Universities
+          </h2>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-space-xs bg-surface-container-lowest text-primary font-label-sm text-label-sm rounded-lg shadow-sm hover:bg-surface transition-colors flex items-center gap-1" type="button">
+<span>View All North Campus (48)</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Property Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:-translate-y-1 transition-all">
+<div class="relative h-56 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Modern spacious student PG room in Delhi North Campus with minimalist wood study desk, ergonomic study chair, twin plush bed, large sunlit window with sheer curtains, warm architectural lighting, midnight navy wall accents and emerald plants." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGxlGvBSv58nZmFSBoljBAo2M5Fse6eC2eES5IK_4C5mZhQTHPP56YBIhbau_poQsHFXFgPyBA-0Uxo11O7qeVAkRdjOJAvuzP-Ax-LFBi46NSIsjwFCwA_0xV3qYHfTVpzhFB58ywHOWcPv5ww7_8sderBp5q5XdMLTh_Cxasj4QvG_IggTwMCQsM4JBKP5ZVgJRZ0_9ozvZA6zdUwttZkadqlSnm73AHjpXxn7E"/>
+<div class="absolute top-3 left-3 flex gap-space-xs flex-wrap">
+<span class="bg-secondary text-on-secondary px-space-xs py-0.5 rounded font-caption text-caption font-bold uppercase tracking-wider flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">verified</span> Verified Provider
+              </span>
+<span class="bg-primary/80 backdrop-blur-md text-surface px-space-xs py-0.5 rounded font-caption text-caption">
+                Boys & Girls Co-ed Wing
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm px-space-xs py-1 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-xs text-secondary">near_me</span>
+<span>400m from Hindu College</span>
+</div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">The Oxford Ivy House</h3>
+<div class="flex items-center text-on-tertiary-container gap-0.5 font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-xs">star</span> 4.9
+                </div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Kamla Nagar, North Campus, New Delhi</p>
+<!-- Amenity Pill Badges -->
+<div class="flex flex-wrap gap-space-xs mb-space-md">
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">Attached Washroom</span>
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">Wi-Fi 300Mbps</span>
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">3 Meals/Day Included</span>
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">Biometric Entry</span>
+</div>
+</div>
+<div class="pt-space-sm bg-surface-container-lowest flex items-center justify-between">
+<div class="flex flex-col">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md font-bold text-primary">₹9,500</span>
+<span class="font-caption text-caption text-on-surface-variant font-medium">/ month</span>
+</div>
+<span class="font-caption text-caption text-secondary font-semibold">1 Month Security Deposit Only</span>
+</div>
+<button class="px-space-md py-space-xs rounded-lg bg-primary hover:bg-on-primary-fixed-variant text-on-primary font-label-sm text-label-sm transition-colors" type="button">
+                Book Tour
+              </button>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:-translate-y-1 transition-all">
+<div class="relative h-56 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="High-spec collegiate double-sharing room in Bengaluru near Christ University, contemporary Scandinavian furniture, custom bunk configuration, private locker spaces, dedicated study stations, warm wooden floor and large balcony view." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPgbE_dPU0-NMVgL0OTvyL3tWB6O4NKENJOXFoAo5DCX3jOgpcGn4n-2lGHjAXHfWaQwc4RXD0RBMev1SASMyUBcr_2G-Oc6NNROfrRNDecDqVWcLJaQHplPtW0gq_bLwXAKAXIp08cNrSY6ueeyRbIY90W2uhupfZW5XUdlL11WcemRk3oYMKUBEgBT6vk_F_-qWXa8JTGri2na317RF2n1Z5jzG3dQEA5lialTQ"/>
+<div class="absolute top-3 left-3 flex gap-space-xs flex-wrap">
+<span class="bg-secondary text-on-secondary px-space-xs py-0.5 rounded font-caption text-caption font-bold uppercase tracking-wider flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">verified</span> Verified Provider
+              </span>
+<span class="bg-primary/80 backdrop-blur-md text-surface px-space-xs py-0.5 rounded font-caption text-caption">
+                Girls Only Haven
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm px-space-xs py-1 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-xs text-secondary">near_me</span>
+<span>650m from Christ Univ Main Gate</span>
+</div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">St. Mary's Coliving Suites</h3>
+<div class="flex items-center text-on-tertiary-container gap-0.5 font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-xs">star</span> 4.8
+                </div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Koramangala 1st Block, Bengaluru</p>
+<!-- Amenity Pill Badges -->
+<div class="flex flex-wrap gap-space-xs mb-space-md">
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">Daily Housekeeping</span>
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">Chef Prepared Buffet</span>
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">Gym & Terrace Deck</span>
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">Power Backup 24/7</span>
+</div>
+</div>
+<div class="pt-space-sm bg-surface-container-lowest flex items-center justify-between">
+<div class="flex flex-col">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md font-bold text-primary">₹12,200</span>
+<span class="font-caption text-caption text-on-surface-variant font-medium">/ month</span>
+</div>
+<span class="font-caption text-caption text-secondary font-semibold">Zero Commission Fee</span>
+</div>
+<button class="px-space-md py-space-xs rounded-lg bg-primary hover:bg-on-primary-fixed-variant text-on-primary font-label-sm text-label-sm transition-colors" type="button">
+                Book Tour
+              </button>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:-translate-y-1 transition-all">
+<div class="relative h-56 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Modern tech-friendly student accommodation near IIT Bombay in Powai, featuring sleek modular workstations with dual monitor mounts, clean white tiled bath, soundproof acoustic walls, warm ambient indirect LED lighting and personal refrigerator." src="https://lh3.googleusercontent.com/aida-public/AB6AXuArLTr0vvfb6_MM-nEXzHxDt28Bje1WYndX-CM9gcXTYVk8xamoZuxrrF9MbPaQOJoAXhic0_CFp2wtK3H83Pk-hSK2Efh0j4TJNhQKCqn-Xlnz_cqIEjPTDPN-VZN-MWEmnIbA5UnhLYkKt2q9tX3U5Evg4iM2zhhDCgBtrfHZLZa9DEeWU_7ho71bM0JpKspHtqs-TJxw_nlwUScub4vJ0IbBG3IcIuCh0H3oMig"/>
+<div class="absolute top-3 left-3 flex gap-space-xs flex-wrap">
+<span class="bg-secondary text-on-secondary px-space-xs py-0.5 rounded font-caption text-caption font-bold uppercase tracking-wider flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">verified</span> Verified Provider
+              </span>
+<span class="bg-primary/80 backdrop-blur-md text-surface px-space-xs py-0.5 rounded font-caption text-caption">
+                Private Studio Option
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm px-space-xs py-1 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-xs text-secondary">near_me</span>
+<span>800m from IIT Bombay Gate 2</span>
+</div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Powai Tech-Living Hub</h3>
+<div class="flex items-center text-on-tertiary-container gap-0.5 font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-xs">star</span> 4.95
+                </div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Hiranandani Gardens, Powai, Mumbai</p>
+<!-- Amenity Pill Badges -->
+<div class="flex flex-wrap gap-space-xs mb-space-md">
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">Dual High-Speed ISP</span>
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">Laundry Service</span>
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">AC Included</span>
+<span class="px-space-xs py-1 rounded bg-surface-container font-caption text-caption text-on-surface">Silent Study Lounge</span>
+</div>
+</div>
+<div class="pt-space-sm bg-surface-container-lowest flex items-center justify-between">
+<div class="flex flex-col">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md font-bold text-primary">₹14,500</span>
+<span class="font-caption text-caption text-on-surface-variant font-medium">/ month</span>
+</div>
+<span class="font-caption text-caption text-secondary font-semibold">Immediate Move-In Ready</span>
+</div>
+<button class="px-space-md py-space-xs rounded-lg bg-primary hover:bg-on-primary-fixed-variant text-on-primary font-label-sm text-label-sm transition-colors" type="button">
+                Book Tour
+              </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Why Verified Providers Matter (Comparison Grid) -->
+<section class="w-full py-space-xl px-gutter max-w-7xl mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-caption text-caption uppercase tracking-wider text-secondary font-bold">Uncompromising Student Protection</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mt-space-xs">
+        The Cost of Traditional Brokers vs. The CampusNest Shield
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
+        Indian university towns have long suffered from high-pressure brokers and fake photo listings. Here is how CampusNest shifts leverage back to students.
+      </p>
+</div>
+<!-- Architectural Comparison Layout -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Unverified Local Broker -->
+<div class="bg-surface-container rounded-xl p-space-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-sm mb-space-md">
+<div class="w-8 h-8 rounded-full bg-error-container text-error flex items-center justify-center">
+<span class="material-symbols-outlined text-base">close</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Unverified Street Brokers & Classifieds</h3>
+</div>
+<div class="space-y-space-md">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-lg mt-0.5">warning</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Exorbitant 15-day to 1-month brokerage fee</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Unregulated middleman commissions without formal invoices or dispute support.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-lg mt-0.5">hide_image</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Staged or 5-year old catalog photos</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Arriving on move-in day to find damp rooms, broken ACs, and unhygienic shared bathrooms.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-lg mt-0.5">lock_clock</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Withheld security deposits</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zero legal recourse when arbitrary deductions are made upon end-of-semester vacating.</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-space-lg p-space-sm bg-surface rounded-lg">
+<span class="font-caption text-caption text-error font-semibold uppercase tracking-wider block">Average Student Loss</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">₹12,000 to ₹25,000 lost per academic year in fees and deposit deductions</span>
+</div>
+</div>
+<!-- CampusNest Verified Shield -->
+<div class="bg-primary-container text-on-primary rounded-xl p-space-lg shadow-xl flex flex-col justify-between relative overflow-hidden">
+<div class="absolute -right-8 -bottom-8 w-48 h-48 bg-secondary/20 rounded-full blur-2xl pointer-events-none"></div>
+<div>
+<div class="flex items-center gap-space-sm mb-space-md">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-base">verified</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-surface font-semibold">CampusNest Institutional Verified Shield</h3>
+</div>
+<div class="space-y-space-md">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary-container text-lg mt-0.5">check_circle</span>
+<div>
+<span class="font-label-md text-label-md text-surface block">Strict ₹0 Brokerage Guarantee</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Every single listed room is directly contracted with owner-operators. You pay zero middleman commission.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary-container text-lg mt-0.5">360</span>
+<div>
+<span class="font-label-md text-label-md text-surface block">100% In-Person Physical Audit</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Our ground inspectors verify water pressure, Wi-Fi bandwidth, food safety licenses, and fire security exits.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary-container text-lg mt-0.5">account_balance_wallet</span>
+<div>
+<span class="font-label-md text-label-md text-surface block">Protected Digital Escrow Deposit</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Security deposits are legally bonded. Landlord cannot deduct funds without CampusNest photographic proof.</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-space-lg p-space-sm bg-surface-container-highest/20 rounded-lg">
+<span class="font-caption text-caption text-secondary-container font-semibold uppercase tracking-wider block">Student Guarantee</span>
+<span class="font-body-md text-body-md text-surface font-medium">100% full booking refund if the real room does not match the online verification specs.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Prefer Calling Instead of Browsing? AI Multilingual Phone Helpline -->
+<section class="w-full bg-surface-container-high py-space-xl px-gutter relative overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Interactive Voice Helpline Concept -->
+<div class="lg:col-span-6 flex flex-col">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-caption text-caption font-bold tracking-wider uppercase mb-space-sm w-fit">
+<span class="material-symbols-outlined text-xs">mic</span> Next-Gen Voice Accessibility
+        </div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mb-space-sm">
+          Prefer calling instead of browsing? Meet CampusNest AI Phone Helpline.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">
+          No internet? On the train to your new university? Just dial our toll-free student line. Our human-grade Voice AI speaks fluent conversational Indian languages, listens to your budget and campus, and sends verified room photos straight to your WhatsApp in seconds.
+        </p>
+<!-- Supported Languages Tag Strip -->
+<div class="mb-space-lg">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold block mb-space-xs">Available 24/7 in 5 Indian Languages:</span>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-md py-1 rounded-full bg-surface-container-lowest font-label-sm text-label-sm text-primary font-bold shadow-sm">हिन्दी (Hindi)</span>
+<span class="px-space-md py-1 rounded-full bg-surface-container-lowest font-label-sm text-label-sm text-primary font-bold shadow-sm">English</span>
+<span class="px-space-md py-1 rounded-full bg-surface-container-lowest font-label-sm text-label-sm text-primary font-bold shadow-sm">தமிழ் (Tamil)</span>
+<span class="px-space-md py-1 rounded-full bg-surface-container-lowest font-label-sm text-label-sm text-primary font-bold shadow-sm">తెలుగు (Telugu)</span>
+<span class="px-space-md py-1 rounded-full bg-surface-container-lowest font-label-sm text-label-sm text-primary font-bold shadow-sm">বাংলা (Bengali)</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<a class="px-space-lg py-space-md rounded-lg bg-secondary hover:bg-on-secondary-container text-on-secondary font-label-md text-label-md flex items-center gap-space-xs shadow-md transition-colors" href="tel:18002267878">
+<span class="material-symbols-outlined text-xl">call</span>
+<span>Dial Toll-Free: 1800-CAMPUS</span>
+</a>
+<span class="font-caption text-caption text-on-surface-variant font-medium">Free of charge for all students</span>
+</div>
+</div>
+<!-- Interactive Simulated Call Console Mock -->
+<div class="lg:col-span-6 flex justify-center">
+<div class="w-full max-w-md bg-primary-container text-on-primary rounded-xl p-space-lg shadow-2xl relative">
+<!-- Dialer Header Bar -->
+<div class="flex items-center justify-between pb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary-container font-semibold uppercase tracking-wider">AI Voice Node: Active</span>
+</div>
+<span class="font-caption text-caption text-on-primary-container">Latency: 140ms</span>
+</div>
+<!-- Call Status Screen -->
+<div class="bg-primary/40 rounded-lg p-space-md my-space-sm flex flex-col items-center text-center">
+<div class="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-3xl">smart_toy</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-surface">CampusNest Assistant</span>
+<span class="font-caption text-caption text-on-primary-container mt-0.5">Listening to Aarav (Hindi & English)</span>
+<!-- Synthetic Audio Waveform Graphic -->
+<div class="w-full flex items-center justify-center gap-1.5 h-12 mt-space-md px-space-md">
+<div class="w-1.5 h-4 bg-secondary rounded-full animate-bounce"></div>
+<div class="w-1.5 h-8 bg-secondary rounded-full animate-bounce [animation-delay:-0.2s]"></div>
+<div class="w-1.5 h-11 bg-secondary rounded-full animate-bounce [animation-delay:-0.4s]"></div>
+<div class="w-1.5 h-6 bg-secondary rounded-full animate-bounce [animation-delay:-0.1s]"></div>
+<div class="w-1.5 h-10 bg-secondary rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+<div class="w-1.5 h-5 bg-secondary rounded-full animate-bounce [animation-delay:-0.2s]"></div>
+<div class="w-1.5 h-3 bg-secondary rounded-full animate-bounce"></div>
+</div>
+</div>
+<!-- Live Transcript Simulation Bubble -->
+<div class="bg-surface-container-highest/10 rounded-lg p-space-md mb-space-md">
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-sm mt-0.5">chat_bubble</span>
+<p class="font-body-sm text-body-sm text-on-primary leading-relaxed">
+                “Namaste Aarav! I found 3 double-sharing PGs within 500m of Kirori Mal College under ₹10,000 with food. Sending WhatsApp brochure to +91 98*** 421...”
+              </p>
+</div>
+</div>
+<!-- Quick Action Buttons -->
+<div class="grid grid-cols-2 gap-space-sm">
+<button class="py-space-xs px-space-sm bg-surface-container-highest/20 hover:bg-surface-container-highest/30 rounded font-label-sm text-label-sm text-surface transition-colors flex items-center justify-center gap-1" type="button">
+<span class="material-symbols-outlined text-sm">swap_calls</span> Change Language
+            </button>
+<button class="py-space-xs px-space-sm bg-surface-container-highest/20 hover:bg-surface-container-highest/30 rounded font-label-sm text-label-sm text-surface transition-colors flex items-center justify-center gap-1" type="button">
+<span class="material-symbols-outlined text-sm">sms</span> SMS Link
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: For Property Owners: List With Confidence -->
+<section class="w-full py-space-xl px-gutter max-w-7xl mx-auto">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg md:p-space-xl shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-7 flex flex-col">
+<div class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-secondary font-caption text-caption font-bold tracking-wider uppercase mb-space-xs w-fit">
+<span>Landlords & Hostel Operators</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mb-space-sm">
+            List your PG with full student occupancy guaranteed.
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">
+            Eliminate vacant beds between semesters. CampusNest connects verified accommodation operators with thousands of pre-screened college students every admission cycle.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md mb-space-lg">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-secondary font-bold">0%</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Launch Commission</span>
+<span class="font-caption text-caption text-on-surface-variant">Zero fees for first 90 days</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold">100%</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">KYC Verification</span>
+<span class="font-caption text-caption text-on-surface-variant">Govt ID student checks</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold">Auto</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Rent Collection</span>
+<span class="font-caption text-caption text-on-surface-variant">Direct bank escrow payouts</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md flex-wrap">
+<button class="px-space-lg py-space-md rounded-lg bg-primary hover:bg-on-primary-fixed-variant text-on-primary font-label-md text-label-md transition-colors shadow-sm" type="button">
+              List Your Property Now
+            </button>
+<a class="font-label-md text-label-md text-secondary hover:text-on-secondary-container transition-colors flex items-center gap-1" href="#">
+<span>View Operator Onboarding Guide</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-5">
+<div class="relative rounded-xl overflow-hidden shadow-md">
+<img class="w-full h-80 object-cover" data-alt="Professional Indian property manager showing student PG accommodation room keys to a young university student and parent in clean sunlit modern PG reception lobby, warm greeting atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpdvavqXUzEfPMUX_Q89BccqwA9gQaevIAo_jMuiMal2BmhCDa-DAUi8YzHbPTXLRO5R6EtAMLG3bxpM8RNQLbgQ0pgDigmmxlxCiT9aNojQFEp7fpYiyQrDd30rniHEBfY76-lO-1c1eyTDIQ_gnG0A1Ng8_jzD4IhysY7RBYLy2gA-gGFO7-ZBIOfVIGuknAEaF-ZCrtWaiLHFa8qqyDwQt5a43oErt46_lz4CE"/>
+<div class="absolute bottom-4 left-4 right-4 p-space-md rounded-lg bg-surface-container-lowest/95 backdrop-blur-md shadow-lg">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-caption text-caption text-on-surface-variant uppercase tracking-wider block">Average Fill Time</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">4.2 Days / Listing</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-xl">speed</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Comprehensive Student Safety & Legal Directory Grid (Pre-footer block) -->
+<section class="w-full bg-surface-container-lowest py-space-xl px-gutter">
+<div class="max-w-7xl mx-auto">
+<div class="text-left mb-space-lg">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">National Student Housing & Campus Directory</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Quickly browse verified student clusters near premier higher education institutions.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-lg font-body-sm text-body-sm">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider block mb-space-sm">Delhi NCR Region</span>
+<ul class="space-y-space-xs text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#">DU North Campus (Kamla Nagar, Vijay Nagar)</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">DU South Campus (Satya Niketan)</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">IIT Delhi (Hauz Khas)</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">JNU / Jamia Millia Islamia</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Amity University Noida (Sector 125)</a></li>
+</ul>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider block mb-space-sm">Bengaluru & South</span>
+<ul class="space-y-space-xs text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#">Christ University (Hosur Road, Bannerghatta)</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">IISc Bengaluru (Malleswaram)</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">IIT Madras (Adyar, Guindy)</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Manipal Academy of Higher Education</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">SRM Institute Chennai (Kattankulathur)</a></li>
+</ul>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider block mb-space-sm">Mumbai & Pune</span>
+<ul class="space-y-space-xs text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#">IIT Bombay (Powai, Kanjurmarg)</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">NMIMS & Mithibai (Vile Parle)</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Symbiosis International (Viman Nagar)</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Fergusson College (FC Road Pune)</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">COEP Technological University</a></li>
+</ul>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider block mb-space-sm">Rights & Compliance</span>
+<ul class="space-y-space-xs text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#">Model Tenancy Act Student Guide</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Security Deposit Refund Timelines</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Police Verification & Tenant Protocols</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">24/7 Female Student Night Shield</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Escrow Dispute Redressal Cell</a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-xl"><div class="max-w-7xl mx-auto px-gutter py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><img alt="CampusNest Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAk0Xh1CyjT35Tn_OrErf_ci0ZdkAadnldTidfLZClK_LIWbR6u8LLHPcqi4b_PIZTPyBFh6f5PAahGieCai1oFYNkp8BBsIlDekU9EFbEoBngQVVn0f1uTXqlQsTEwIxK-1aU9V5oupoYR5FX2RsxuK08kA0Q6q8_ip6otQzRavNAsFR_j1tRBbu1mKHM4zmJvmSrilNdhixvXAk0m7t9Jirv_oTtXtGewkx-Pv1A"/><span class="font-body-sm text-body-sm text-on-surface-variant">© 2024 CampusNest Living Ltd. Verified Student Housing Infrastructure.</span></div><div class="flex items-center gap-space-lg"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="legal-compliance" href="#">Legal & Escrow</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="code-of-conduct" href="#">Student Safety Charter</a></div></div></footer></body></html>

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary-fixed-variant":"#384760","on-surface-variant":"#44474d","on-tertiary-container":"#b58129","surface-tint":"#505f79","on-tertiary":"#ffffff","on-primary":"#ffffff","secondary-fixed-dim":"#70d8ca","tertiary-fixed-dim":"#f8bc5f","outline":"#75777e","inverse-surface":"#223144","on-secondary-fixed-variant":"#005049","error-container":"#ffdad6","primary-fixed":"#d5e3ff","on-primary-fixed":"#0b1c32","on-surface":"#0d1c2e","background":"#f8f9ff","inverse-on-surface":"#eaf1ff","error":"#ba1a1a","primary-container":"#14243b","surface-bright":"#f8f9ff","secondary":"#006a61","outline-variant":"#c5c6ce","inverse-primary":"#b7c7e5","surface-dim":"#ccdbf4","on-background":"#0d1c2e","surface-container-low":"#eff4ff","on-secondary-fixed":"#00201d","primary-fixed-dim":"#b7c7e5","tertiary":"#170c00","on-error":"#ffffff","secondary-fixed":"#8df4e6","surface-variant":"#d4e4fc","secondary-container":"#8bf1e3","on-error-container":"#93000a","on-secondary-container":"#006f65","tertiary-container":"#332000","surface":"#f8f9ff","on-tertiary-fixed-variant":"#614000","surface-container-highest":"#d4e4fc","on-primary-container":"#7c8ba7","tertiary-fixed":"#ffddb0","surface-container-high":"#dce9ff","surface-container-lowest":"#ffffff","on-secondary":"#ffffff","primary":"#000e24","surface-container":"#e5eeff","on-tertiary-fixed":"#281800"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"space-sm":"0.5rem","space-lg":"1.5rem",gutter:"1.5rem","space-md":"1rem","space-xs":"0.25rem",margin:"3rem","margin-mobile":"1rem","gutter-mobile":"1rem","space-xl":"2.5rem"},fontFamily:{"label-md":["Inter"],"headline-md":["Manrope"],"headline-lg-mobile":["Manrope"],"display-lg":["Manrope"],"body-sm":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"headline-sm":["Manrope"],"body-md":["Inter"],"display-lg-mobile":["Manrope"],caption:["Inter"],"headline-lg":["Manrope"]},fontSize:{"label-md":["13px",{lineHeight:"16px",letterSpacing:"0.01em",fontWeight:"600"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"headline-lg-mobile":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"display-lg":["48px",{lineHeight:"56px",letterSpacing:"-0.03em",fontWeight:"700"}],"body-sm":["12px",{lineHeight:"18px",letterSpacing:"0.005em",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.03em",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"400"}],"headline-sm":["18px",{lineHeight:"26px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",letterSpacing:"0em",fontWeight:"400"}],"display-lg-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"700"}],caption:["10px",{lineHeight:"12px",letterSpacing:"0.04em",fontWeight:"500"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"600"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(20,36,59,0.06)]"><div class="h-28 max-w-7xl mx-auto px-gutter flex flex-col justify-between"><div class="h-16 flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="CampusNest Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAk0Xh1CyjT35Tn_OrErf_ci0ZdkAadnldTidfLZClK_LIWbR6u8LLHPcqi4b_PIZTPyBFh6f5PAahGieCai1oFYNkp8BBsIlDekU9EFbEoBngQVVn0f1uTXqlQsTEwIxK-1aU9V5oupoYR5FX2RsxuK08kA0Q6q8_ip6otQzRavNAsFR_j1tRBbu1mKHM4zmJvmSrilNdhixvXAk0m7t9Jirv_oTtXtGewkx-Pv1A"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">CampusNest</span><span class="font-caption text-caption text-secondary font-semibold uppercase tracking-wider">Student Living</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-label-md font-bold"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="explore-pgs" href="#">Explore PGs</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="how-it-works" href="#">How It Works</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="ai-phone-helpline" href="#">AI Phone Helpline</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="list-property" href="#">List Property (Provider)</a><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-low"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Student Mode</span></div></nav><div class="flex items-center gap-space-md"><button aria-label="Search listings" class="p-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-xl">search</span></button><div class="relative"><button aria-label="Notifications" class="p-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors relative" type="button"><span class="material-symbols-outlined text-xl">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-secondary-container ring-2 ring-surface-container-lowest"></span></button></div><div class="flex items-center gap-space-sm pl-space-xs cursor-pointer group"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRJpe7FqIEmVTkmK9OjqMnNzyc9ZhYtSfWJ1sIVf_rUhY1qIadI3bLh46q4Oj2Gn75V1jovLxGIQXdxk-aa76pLkQ7fXKICmBvwiar1hbGtjFc1i8iaSfyfAe_RQX9xU2t-8OTjN4-0MLrUTCb7dU1H3mHz7-Tlc4u4Wzt5FCumawOHNvH9fWYMWHmS0K4KRum33I8GsxmmBlw5A2xw72Qt_PVO_GEDhs4gF85ozA"/><div class="hidden sm:flex flex-col text-left"><span class="font-label-sm text-label-sm text-on-surface font-semibold leading-none">Aarav Sharma</span><span class="font-caption text-caption text-on-surface-variant mt-0.5 leading-none">Univ. of Delhi</span></div><span class="material-symbols-outlined text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">keyboard_arrow_down</span></div></div></div><div class="h-12 flex items-center justify-between overflow-x-auto"><div class="flex items-center gap-space-md"><div class="flex items-center p-space-xs rounded-lg bg-surface-container-low"><button class="px-space-sm py-space-xs rounded font-label-sm text-label-sm bg-surface-container-lowest text-primary shadow-[0_1px_3px_rgba(20,36,59,0.04)]" type="button">Student View</button><button class="px-space-sm py-space-xs rounded font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button">Provider View</button><button class="px-space-sm py-space-xs rounded font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button">Admin View</button></div><nav class="flex items-center gap-space-lg" data-active-classes="text-secondary font-label-sm font-bold"><a aria-current="page" class="transition-colors whitespace-nowrap text-secondary font-label-sm font-bold" data-path="overview" href="#">Overview</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="find-accommodation" href="#">Find Accommodation</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap flex items-center gap-space-xs" data-path="saved-accommodations" href="#">Saved <span class="px-space-xs py-0.5 rounded-full bg-surface-container font-caption text-caption text-on-surface font-bold">4</span></a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap flex items-center gap-space-xs" data-path="my-enquiries" href="#">My Enquiries <span class="px-space-xs py-0.5 rounded-full bg-secondary-container font-caption text-caption text-on-secondary-container font-bold">2</span></a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="helpline-support" href="#">Helpline</a></nav></div><div class="hidden md:flex items-center gap-space-sm"><span class="font-caption text-caption text-on-surface-variant">Verified Student Shield: Active</span><span class="material-symbols-outlined text-sm text-secondary">verified_user</span></div></div></div></header><main class="w-full pt-28 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Academic Context & Welcome Strip -->
+<section class="w-full bg-surface-container-low px-gutter py-space-xl">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-end justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-highest w-fit">
+<span class="material-symbols-outlined text-secondary text-sm">school</span>
+<span class="font-caption text-caption text-on-surface font-semibold tracking-wide uppercase">University of Delhi North Campus</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          Welcome back, Aarav! Let’s find your ideal student home.
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-space-xs flex-wrap">
+<span>Enrolled at Faculty of Arts, University of Delhi</span>
+<span class="text-outline-variant">•</span>
+<span class="text-secondary font-semibold">Moving in for Autumn Semester 2025</span>
+<span class="text-outline-variant">•</span>
+<span class="text-on-surface-variant">Profile Verified (UIDAI + DU Reg: #24FA-8812)</span>
+</p>
+</div>
+<div class="flex items-center gap-space-sm self-stretch md:self-auto justify-end">
+<a class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md shadow-sm hover:bg-surface-container transition-all flex items-center gap-space-xs" href="#preferences-modal">
+<span class="material-symbols-outlined text-base">tune</span>
+          Filter Settings
+        </a>
+<button class="px-space-md py-space-sm rounded-lg bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all flex items-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-base">support_agent</span>
+          AI Helpline Call
+        </button>
+</div>
+</div>
+</section>
+<!-- Metric Summary Cards Mosaic -->
+<section class="max-w-7xl mx-auto px-gutter -mt-6 w-full z-10">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-caption text-caption uppercase tracking-wider text-on-surface-variant font-bold">Inventory Match</span>
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">apartment</span>
+</div>
+</div>
+<div class="my-space-sm">
+<div class="font-display-lg text-display-lg text-primary tracking-tight font-bold">28</div>
+<div class="font-label-md text-label-md text-on-surface">Properties Match Filter</div>
+</div>
+<div class="inline-flex items-center gap-1.5 px-space-xs py-0.5 rounded bg-surface-container-high w-fit">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-caption text-caption text-secondary font-semibold">+8 new this week</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-caption text-caption uppercase tracking-wider text-on-surface-variant font-bold">Saved Places</span>
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</div>
+</div>
+<div class="my-space-sm">
+<div class="font-display-lg text-display-lg text-primary tracking-tight font-bold">4</div>
+<div class="font-label-md text-label-md text-on-surface">Shortlisted Units</div>
+</div>
+<div class="inline-flex items-center gap-1.5 px-space-xs py-0.5 rounded bg-surface-container-highest w-fit">
+<span class="material-symbols-outlined text-xs text-error">priority_high</span>
+<span class="font-caption text-caption text-error font-semibold">1 vacancy alert</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-caption text-caption uppercase tracking-wider text-on-surface-variant font-bold">Active Engagements</span>
+<div class="w-8 h-8 rounded-lg bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-lg">calendar_today</span>
+</div>
+</div>
+<div class="my-space-sm">
+<div class="font-display-lg text-display-lg text-primary tracking-tight font-bold">2</div>
+<div class="font-label-md text-label-md text-on-surface">Visits & Enquiries</div>
+</div>
+<div class="inline-flex items-center gap-1.5 px-space-xs py-0.5 rounded bg-secondary-container/50 w-fit">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-caption text-caption text-on-secondary-container font-semibold">1 Confirmed: Tomorrow 4 PM</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-caption text-caption uppercase tracking-wider text-on-surface-variant font-bold">AI Helpline</span>
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">phone_in_talk</span>
+</div>
+</div>
+<div class="my-space-sm">
+<div class="font-display-lg text-display-lg text-primary tracking-tight font-bold">1</div>
+<div class="font-label-md text-label-md text-on-surface">Callback Scheduled</div>
+</div>
+<div class="inline-flex items-center gap-1.5 px-space-xs py-0.5 rounded bg-surface-container-high w-fit">
+<span class="material-symbols-outlined text-xs text-on-surface-variant">schedule</span>
+<span class="font-caption text-caption text-on-surface-variant font-medium">Slot: Today at 6:30 PM</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Preference Radar & Search Bar -->
+<section class="max-w-7xl mx-auto px-gutter mt-space-xl w-full">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-2xl">auto_awesome</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary">Your Dynamic Search Vector</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Autonomous matching algorithm recalibrates listings every 15 minutes</p>
+</div>
+</div>
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container-low text-primary font-label-md text-label-md hover:bg-surface-container flex items-center gap-space-xs self-start lg:self-auto transition-colors" id="update-prefs-btn" type="button">
+<span class="material-symbols-outlined text-sm">tune</span>
+          Update Room Preferences
+        </button>
+</div>
+<!-- Quick Filter Pills -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs">
+<span class="font-caption text-caption uppercase text-on-surface-variant font-bold tracking-wider mr-space-xs">Active Criteria:</span>
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs text-secondary">payments</span>
+          Budget up to ₹12,000/mo
+          <button class="text-on-surface-variant hover:text-on-surface ml-1" type="button"><span class="material-symbols-outlined text-xs">close</span></button>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs text-secondary">bed</span>
+          Single or Double Sharing
+          <button class="text-on-surface-variant hover:text-on-surface ml-1" type="button"><span class="material-symbols-outlined text-xs">close</span></button>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs text-secondary">shower</span>
+          Attached Washroom
+          <button class="text-on-surface-variant hover:text-on-surface ml-1" type="button"><span class="material-symbols-outlined text-xs">close</span></button>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs text-secondary">directions_walk</span>
+          Walkable to Campus (<15 mins)
+          <button class="text-on-surface-variant hover:text-on-surface ml-1" type="button"><span class="material-symbols-outlined text-xs">close</span></button>
+</div>
+<button class="font-label-sm text-label-sm text-secondary hover:underline ml-space-xs" type="button">
+          + Add Food/Meal preference
+        </button>
+</div>
+<!-- Campus Proximity Strip with Mini Bar Gauge -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md pt-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-xl">account_balance</span>
+<div>
+<div class="font-label-sm text-label-sm text-primary">North Campus Distance</div>
+<div class="font-caption text-caption text-on-surface-variant">Average commute: 8 mins walk</div>
+</div>
+</div>
+<span class="font-label-md text-label-md text-secondary font-bold">0.8 km</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-xl">security</span>
+<div>
+<div class="font-label-sm text-label-sm text-primary">Safety Index kamla Nagar</div>
+<div class="font-caption text-caption text-on-surface-variant">CCTV + 24/7 Wardens</div>
+</div>
+</div>
+<span class="font-label-md text-label-md text-secondary font-bold">9.8/10</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-xl">verified</span>
+<div>
+<div class="font-label-sm text-label-sm text-primary">Security Escrow Enabled</div>
+<div class="font-caption text-caption text-on-surface-variant">Bank-backed deposit protection</div>
+</div>
+</div>
+<span class="font-label-md text-label-md text-primary font-bold">Active</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Scheduled Visits & Current Enquiries Section -->
+<section class="max-w-7xl mx-auto px-gutter mt-space-xl w-full">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<h2 class="font-headline-md text-headline-md text-primary">Upcoming Scheduled Visits & Enquiries</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">In-person physical inspections coordinated with certified property caretakers</p>
+</div>
+<span class="font-caption text-caption text-secondary font-bold uppercase tracking-wider px-space-sm py-1 rounded bg-secondary-container/40">
+        Status: 1 Action Required
+      </span>
+</div>
+<!-- Visit Spotlight Card -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-md flex flex-col lg:flex-row gap-space-lg items-stretch">
+<!-- Media / Map preview split -->
+<div class="w-full lg:w-1/3 flex flex-col gap-space-sm">
+<div class="relative h-48 w-full rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Modern spacious student shared room with clean twin beds, dedicated wooden study desks, warm Scandinavian lighting, natural sunlit windows, and sleek storage cabinetry in Delhi North Campus" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEFlcT01jqLzer7HlSFJgGRclziQfV9A6tAwb-jAEOm_on_7wmBfDqq7humXyThzBezmBYmx_C4lnX8sNJcTNDhmURkQFzEAqyb5mPLpWDbeljJMNIEc5uvvGjyl6d4MKp-H6kjHuqCUnW-CEQaGTv30saAq0tBfiouxvs_6ZU0rJ3R6w1PvcigXvk9wE--wKVtI9m0BlanEhyyf3AZKDd2Kjpblo7KjXxs4ONr4E"/>
+<div class="absolute top-2 left-2 px-space-xs py-1 rounded bg-primary text-on-primary font-caption text-caption font-bold">
+            CONFIRMED VISIT
+          </div>
+<div class="absolute bottom-2 right-2 px-space-xs py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-caption text-caption font-semibold">
+            Room 204 (Twin Sharing)
+          </div>
+</div>
+<div class="w-full h-24 rounded-lg bg-cover bg-center relative flex items-end p-2" data-location="Kamla Nagar, Delhi, India" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAtQam4t1oyDg1LijDBJj5HSKav7kIQLexqtYsazGW3ES0aMQKVQBPsARyG0a-ClPHI6n7GgSMTVT8SRe3rNZelVPgbZ4yAOp_7ZVJ0bYjmg-lbzUrNqS8CMiJAJSNUfUM3tAoJUhoXxKb59YCP8pqjDOOGC82QIzr6ED9FcYkJOGSswTPdnRfsOhI8FvDIFy9sWZplMDQa9_wOSt-a1_QoPa562zEY4QhDezXdPZs')">
+<div class="px-space-xs py-0.5 rounded bg-surface-container-lowest/90 text-primary font-caption text-caption flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-xs text-secondary">pin_drop</span>
+            42-B, Bungalow Rd
+          </div>
+</div>
+</div>
+<!-- Core Details & Action Column -->
+<div class="w-full lg:w-2/3 flex flex-col justify-between gap-space-md">
+<div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div>
+<span class="font-caption text-caption uppercase text-secondary font-bold tracking-wider">Premium North Campus Living</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Greenwood Elite Student Living - Room 204</h3>
+</div>
+<div class="text-left sm:text-right">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹11,500</span>
+<span class="font-caption text-caption text-on-surface-variant">/month all-inclusive</span>
+</div>
+</div>
+<!-- Schedule Callout Box -->
+<div class="mt-space-md p-space-md rounded-lg bg-surface-container-low flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-secondary text-on-secondary flex flex-col items-center justify-center">
+<span class="font-label-sm text-label-sm uppercase font-bold">TOM</span>
+<span class="font-headline-sm text-headline-sm leading-none font-bold">18</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-primary">Scheduled In-person Visit: Tomorrow, 4:00 PM IST</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Gate Entry Pass #GN-9902 sent via SMS & WhatsApp</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Visit Guaranteed</span>
+</div>
+</div>
+<!-- Landlord Profile Metadata -->
+<div class="mt-space-md flex flex-wrap items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Professional headshot of an experienced Indian male landlord in his 50s with gentle demeanor, neat attire, representing verified CampusNest housing partner" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaTxZKp0zD-_yaEfQK4OYOpnB7VG3WykHuk7QuIUdllCSI6Kdsq96WvCCHGcrrPWuhfYjBQ8RXK9_kuButrL4-7hdfnpGYXi6Jrnx0gRG0MQ9OEB22VEGgAuiXktwumn2AHlBqfG6yBFoN9DTIOIVD_w-xK96nPLPg5Cr7NZOBg3uP5MsbNuFVV0kXdayIUaSf_YvN30vE9kubTfzScGTDoIurkns6_gcIopogRaY"/>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md text-primary">Mr. Rajesh Khanna</span>
+<span class="material-symbols-outlined text-xs text-secondary" title="Verified Landlord">verified</span>
+</div>
+<div class="font-caption text-caption text-on-surface-variant">Verified Provider • Phone Verified • 4.8★ (42 student reviews)</div>
+</div>
+</div>
+<div class="text-left sm:text-right">
+<div class="font-label-sm text-label-sm text-primary">Address</div>
+<div class="font-caption text-caption text-on-surface-variant">42-B, Bungalow Road, Kamla Nagar, Delhi 110007</div>
+</div>
+</div>
+</div>
+<!-- Action Row -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-sm text-on-surface-variant">directions_walk</span>
+<span class="font-caption text-caption text-on-surface-variant">7 mins walk from Faculty of Arts main gate</span>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container text-primary font-label-md text-label-md hover:bg-surface-container-high transition-colors flex items-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-sm">map</span>
+              Get Directions
+            </button>
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container text-primary font-label-md text-label-md hover:bg-surface-container-high transition-colors flex items-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-sm">schedule</span>
+              Reschedule Visit
+            </button>
+<button class="px-space-md py-space-xs rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors flex items-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-sm">chat</span>
+              Message Landlord
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Curated Recommendations Section -->
+<section class="max-w-7xl mx-auto px-gutter mt-space-xl w-full">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm mb-space-md">
+<div>
+<div class="inline-flex items-center gap-1 font-caption text-caption uppercase tracking-wider text-secondary font-bold">
+<span class="material-symbols-outlined text-xs">my_location</span>
+          Distance-Optimized Feeds
+        </div>
+<h2 class="font-headline-md text-headline-md text-primary">Curated Recommendations Based on Your College</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ranked strictly by safety index, lease legality, and walking radius to Faculty of Arts</p>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="p-2 rounded-lg bg-surface-container-low text-primary hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-base">west</span>
+</button>
+<button class="p-2 rounded-lg bg-surface-container text-primary hover:bg-surface-container-high transition-colors" type="button">
+<span class="material-symbols-outlined text-base">east</span>
+</button>
+</div>
+</div>
+<!-- 3-Column Recommendations Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Card 1 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden group">
+<div class="relative h-56 w-full">
+<img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300" data-alt="Chic modern studio room for student living with ergonomic workspace, study lamps, wooden bookshelf, large window overlooking tranquil leafy Delhi garden, stylish minimalist interior" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4dOhYPcinUm79lwKZG0XnO8jQYmuac0SL6r6KB7u2NyotJi5hqstXq2iiz5zxGbT3Qscr2CTUo4mxXbniOIbRmlIMIfQT45Yod_bNPI8U2OmNyjPSUSg5T_1yOiLmK7Es64_rwzg529zriYGGmNeL_vG6nTNG0q5p7U5jrif-cLa4gBU-SVJRMZS9gv8YKJe4kBLRQ8dQetTWzl0zW4B1_Rj-oC4JyzF-bcOPxxg"/>
+<div class="absolute top-3 left-3 flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-caption text-caption font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">verified</span> CampusNest Verified
+            </span>
+</div>
+<button aria-label="Save listing" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface flex items-center justify-center hover:text-error transition-colors" type="button">
+<span class="material-symbols-outlined text-base">bookmark</span>
+</button>
+<div class="absolute bottom-3 left-3 px-space-xs py-0.5 rounded bg-primary/80 backdrop-blur-sm text-on-primary font-caption text-caption">
+            10 Mins Walk • 0.9 km
+          </div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow gap-space-md">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-caption text-caption mb-1">
+<span>Malka Ganj, North Campus</span>
+<span class="text-secondary font-bold">4.9★ (38 reviews)</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">The Scholars Haven - Single Suite</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Air-conditioned, high-speed fiber Wi-Fi, 3 organic meals daily included.</p>
+<div class="flex flex-wrap gap-1 mt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-caption text-caption text-on-surface">Attached Balcony</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-caption text-caption text-on-surface">Biometric Entry</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-caption text-caption text-on-surface">Zero Lock-in</span>
+</div>
+</div>
+<div class="pt-space-sm border-t-0 bg-surface-container-lowest">
+<div class="flex items-center justify-between mb-space-sm">
+<div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹12,000</span>
+<span class="font-caption text-caption text-on-surface-variant">/mo</span>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">Deposit: 1 Month Only</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-space-xs rounded-lg bg-surface-container text-primary font-label-md text-label-md hover:bg-surface-container-high transition-colors text-center" type="button">
+                Quick Enquiry
+              </button>
+<button class="w-full py-space-xs rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors text-center" type="button">
+                Book Visit
+              </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden group">
+<div class="relative h-56 w-full">
+<img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300" data-alt="Contemporary twin-sharing academic dorm room in North Campus Delhi with dual study desks, individual task lights, modular wardrobes, and cheerful aesthetic color accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALm1unG371jLLcEslcjjeASZdGd3JzGCRstqhNoGY9zQOoV4kfY5ftXuceg7w39amuAGw609KbQt1yRn1nD2fZ-bgniWuuPGTFKh9ed7QWGFDuKECrlNS_2tf00ASLmrfWaedJoy7n6_LVUqwbDHKCzl7qKORVi9i7Zsc_qIdsMXeqYfo4Ita4r2cpk19Qk7n3PrPqrphTm7oovbgLsOiKVhyoPo5A8wzBiGPAfsg"/>
+<div class="absolute top-3 left-3 flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-caption text-caption font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">verified</span> 100% Escrow Protected
+            </span>
+</div>
+<button aria-label="Save listing" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface flex items-center justify-center hover:text-error transition-colors" type="button">
+<span class="material-symbols-outlined text-base">bookmark_border</span>
+</button>
+<div class="absolute bottom-3 left-3 px-space-xs py-0.5 rounded bg-primary/80 backdrop-blur-sm text-on-primary font-caption text-caption">
+            5 Mins Walk • 0.4 km
+          </div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow gap-space-md">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-caption text-caption mb-1">
+<span>Chhatra Marg, University Enclave</span>
+<span class="text-secondary font-bold">4.7★ (61 reviews)</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">St. Stephens Court - Twin Room</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Closest PG to Arts Quadrangle. Laundry & housekeeping 6 days a week.</p>
+<div class="flex flex-wrap gap-1 mt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-caption text-caption text-on-surface">Walk to Library</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-caption text-caption text-on-surface">Power Backup</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-caption text-caption text-on-surface">RO Water</span>
+</div>
+</div>
+<div class="pt-space-sm border-t-0 bg-surface-container-lowest">
+<div class="flex items-center justify-between mb-space-sm">
+<div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹10,500</span>
+<span class="font-caption text-caption text-on-surface-variant">/mo</span>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">Deposit: ₹10,500</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-space-xs rounded-lg bg-surface-container text-primary font-label-md text-label-md hover:bg-surface-container-high transition-colors text-center" type="button">
+                Quick Enquiry
+              </button>
+<button class="w-full py-space-xs rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors text-center" type="button">
+                Book Visit
+              </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden group">
+<div class="relative h-56 w-full">
+<img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300" data-alt="Sun-drenched student co-living residence with attached modern tiled washroom, study corner, cozy soft furnishings, and clean kitchen access in Roop Nagar Delhi" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4adgNMuN6DMBw4YsuTyWckL_9OyawZxmTthTa_-YWQ4HPQk2gq-HHsk-ZrAStMjTZddQLklPC2ir1PtnPElK04FvGquubdZlC1LsbiOpAXMEdA7VNCKfjNEY6HHoyQbs6dk5TRZgLNg4O5yPuvZsAWOB-fK9gYntOBdYF5HrfaUju5EXBkg1lDuyVPne6CC2aCeJ6TOy7yHbPh9CeNGtwwVePlN53dGV_jO3PLTY"/>
+<div class="absolute top-3 left-3 flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-caption text-caption font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">verified</span> Female & Male Wings
+            </span>
+</div>
+<button aria-label="Save listing" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface flex items-center justify-center hover:text-error transition-colors" type="button">
+<span class="material-symbols-outlined text-base">bookmark_border</span>
+</button>
+<div class="absolute bottom-3 left-3 px-space-xs py-0.5 rounded bg-primary/80 backdrop-blur-sm text-on-primary font-caption text-caption">
+            12 Mins Walk • 1.1 km
+          </div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow gap-space-md">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-caption text-caption mb-1">
+<span>Roop Nagar, Near Delhi Univ</span>
+<span class="text-secondary font-bold">4.8★ (29 reviews)</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Aranya Student Residency - D-102</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Quiet study-focused ecosystem with dedicated terrace library and cafeteria.</p>
+<div class="flex flex-wrap gap-1 mt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-caption text-caption text-on-surface">Attached Bath</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-caption text-caption text-on-surface">High-Speed Wifi</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low font-caption text-caption text-on-surface">No Curfew</span>
+</div>
+</div>
+<div class="pt-space-sm border-t-0 bg-surface-container-lowest">
+<div class="flex items-center justify-between mb-space-sm">
+<div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹11,800</span>
+<span class="font-caption text-caption text-on-surface-variant">/mo</span>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">Deposit: ₹11,800</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-space-xs rounded-lg bg-surface-container text-primary font-label-md text-label-md hover:bg-surface-container-high transition-colors text-center" type="button">
+                Quick Enquiry
+              </button>
+<button class="w-full py-space-xs rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors text-center" type="button">
+                Book Visit
+              </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Student Safety, Legal Hub & Checklist Section -->
+<section class="max-w-7xl mx-auto px-gutter my-space-xl w-full">
+<div class="p-space-lg lg:p-space-xl rounded-xl bg-surface-container-low flex flex-col lg:flex-row items-stretch gap-space-lg">
+<!-- Left side: Educational & Guidance Modules -->
+<div class="w-full lg:w-2/3 flex flex-col justify-between gap-space-md">
+<div>
+<div class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded bg-secondary-container text-on-secondary-container font-caption text-caption font-bold uppercase tracking-wider mb-space-xs">
+<span class="material-symbols-outlined text-xs">gavel</span>
+            CampusNest Legal & Protection Shield
+          </div>
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight">
+            Student Checklist & Safety Hub
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Standardized protocols ensuring student tenants in Delhi are protected against arbitrary lock-outs, exorbitant utility surges, or unreturned deposits.
+          </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md pt-space-xs">
+<!-- Guide 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<span class="material-symbols-outlined text-secondary text-2xl">policy</span>
+<span class="font-caption text-caption font-bold text-on-surface-variant">DELHI DRC</span>
+</div>
+<div class="my-space-sm">
+<div class="font-label-md text-label-md text-primary font-semibold">Tenant Rights in Delhi</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-1">Know rent ceilings, 30-day notice minimums, and lawful access hours.</div>
+</div>
+<a class="font-label-sm text-label-sm text-secondary hover:underline inline-flex items-center gap-1" href="#">
+              Read Guide <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Guide 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<span class="material-symbols-outlined text-secondary text-2xl">account_balance_wallet</span>
+<span class="font-caption text-caption font-bold text-on-surface-variant">ESCROW</span>
+</div>
+<div class="my-space-sm">
+<div class="font-label-md text-label-md text-primary font-semibold">Deposit Guidelines</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-1">Maximum 1-month deposit policy backed by CampusNest SafeCustody escrow.</div>
+</div>
+<a class="font-label-sm text-label-sm text-secondary hover:underline inline-flex items-center gap-1" href="#">
+              View Rules <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Guide 3 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<span class="material-symbols-outlined text-secondary text-2xl">fact_check</span>
+<span class="font-caption text-caption font-bold text-on-surface-variant">PDF • 1.2 MB</span>
+</div>
+<div class="my-space-sm">
+<div class="font-label-md text-label-md text-primary font-semibold">Room Inspection Checklist</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-1">Pre-move-in condition audit template to prevent deduction disputes.</div>
+</div>
+<button class="font-label-sm text-label-sm text-secondary hover:underline inline-flex items-center gap-1 text-left" type="button">
+              Download PDF <span class="material-symbols-outlined text-xs">download</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Right side: AI Phone Helpline Interactive Assistant Card -->
+<div class="w-full lg:w-1/3 rounded-xl bg-surface-container-lowest shadow-sm p-space-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-caption text-caption text-on-surface-variant font-bold uppercase tracking-wider">Toll-Free 24/7 AI Desk</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Automated Voice Helpline</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Speak directly with the CampusNest AI Agent in Hindi or English to schedule visits, verify lease contracts, or register urgent tenancy complaints.
+          </p>
+<!-- Interactive dial status -->
+<div class="mt-space-md p-space-sm rounded-lg bg-surface-container-low flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-on-secondary shrink-0">
+<span class="material-symbols-outlined text-lg">phone</span>
+</div>
+<div class="min-w-0">
+<div class="font-label-sm text-label-sm text-primary font-bold">1800-CAMPUS-NEST</div>
+<div class="font-caption text-caption text-secondary">Aarav, your queued ticket: #TK-4821</div>
+</div>
+</div>
+</div>
+<div class="pt-space-md flex flex-col gap-space-xs">
+<button class="w-full py-space-sm rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-all flex items-center justify-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-base">call</span>
+            Call Now via Web Audio
+          </button>
+<div class="text-center font-caption text-caption text-on-surface-variant">Zero phone balance needed. Encrypted end-to-end.</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Simple micro-interaction for filter button
+  const prefBtn = document.getElementById('update-prefs-btn');
+  if (prefBtn) {
+    prefBtn.addEventListener('click', () => {
+      const banner = document.createElement('div');
+      banner.className = 'fixed bottom-6 right-6 bg-primary text-on-primary px-4 py-3 rounded-lg shadow-xl z-50 flex items-center gap-2 font-label-md text-label-md transition-all';
+      banner.innerHTML = '<span class="material-symbols-outlined text-secondary">check_circle</span> Room preference editor opened for North Campus.';
+      document.body.appendChild(banner);
+      setTimeout(() => banner.remove(), 3500);
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-lowest mt-space-xl"><div class="max-w-7xl mx-auto px-gutter py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><img alt="CampusNest Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAk0Xh1CyjT35Tn_OrErf_ci0ZdkAadnldTidfLZClK_LIWbR6u8LLHPcqi4b_PIZTPyBFh6f5PAahGieCai1oFYNkp8BBsIlDekU9EFbEoBngQVVn0f1uTXqlQsTEwIxK-1aU9V5oupoYR5FX2RsxuK08kA0Q6q8_ip6otQzRavNAsFR_j1tRBbu1mKHM4zmJvmSrilNdhixvXAk0m7t9Jirv_oTtXtGewkx-Pv1A"/><span class="font-body-sm text-body-sm text-on-surface-variant">© 2024 CampusNest Living Ltd. Verified Student Housing Infrastructure.</span></div><div class="flex items-center gap-space-lg"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="legal-compliance" href="#">Legal & Escrow</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="code-of-conduct" href="#">Student Safety Charter</a></div></div></footer></body></html>
